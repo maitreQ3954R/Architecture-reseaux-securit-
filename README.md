@@ -10,7 +10,7 @@ Ce projet présente la conception et la sécurisation d'une infrastructure rése
 * **Sécurisation SSH (v2) :** Activation du protocole SSH sur les lignes VTY des switchs et routeurs avec authentification locale (`login local`).
 * **Contrôle d'accès (ACL) :** Mise en place d'une **Access Control List Standard** (via la commande `access-class in`) appliquée sur les lignes VTY pour autoriser **uniquement** l'adresse IP du `PC-ADMIN` à se connecter en SSH. Tous les autres équipements du LAN sont bloqués.
 * **Adressage et Passerelles :** Configuration des interfaces virtuelles (SVI) sur le VLAN 1 des switchs (`interface vlan 1`) avec attribution d'IPs dédiées et configuration du `ip default-gateway`.
-* serurisation des ports : activation du violations restrict ou shutdown sur chaque por pc
+* serurisation des ports : activation du violations restrict ou shutdown sur chaque port pc
 
 
 ## 🚀 Comment tester et valider le projet ?
