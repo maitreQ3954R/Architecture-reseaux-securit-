@@ -17,7 +17,7 @@ Ce projet présente la conception et la sécurisation d'une infrastructure rése
 ## 🚀 Comment tester et valider le projet ?
 1.  copier le lien : https://drive.google.com/file/d/1In0lcAJlaN9_J2InV8QJLwsl_6lCgbzu/view?usp=sharing
 2. Extraire le zip puis oUvrir le fichier pkt
-3. fais des ping entres les pc de differents routers pour testé la connectivité ( le premier fais souvent fail) sa fera succecfull
+3. fais des ping entres les pc de differents routers pour testé la connectivité  via les envelopes en haut( le premier fais souvent fail) sa fera succecfull
 4. Depuis le **PC-ADMIN**, ouvre l'invite de commande  pour tous les routers 'ssh -l levy [ip_du_lan] et ils ont tous le meme mots de passe qui cisco ex pour le lan 2 faites 'ssh -l levy 172.16.20.1" mot de passe 'cisco' et l'enable secret est cisco
 5. Depuis n'importe quel autre PC (ex: `PC-LBV`ou 'PC-FRAN'), tente la même commande -> La connexion est instantanément refusée par l'ACL.
 6. toucher un switch le mot passe et l'enable mot de passe est 'cisco' puis faites " show portsecurity" pour voir la secuté appliqué sur les port de chaque pc (rectrict et shutdown)
